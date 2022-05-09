@@ -1,5 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 111
 =======
 abc
+>>>>>>> hot_fix
+=======
+abc
+This row was written by Daniel in branch hot_fix
 >>>>>>> hot_fix
