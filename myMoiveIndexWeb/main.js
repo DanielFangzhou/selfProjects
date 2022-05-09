@@ -50,6 +50,10 @@ function searchByName(){
             'X-RapidAPI-Key': 'c40c092a88msh77cfe20cb780d37p1c8bbfjsn398ca07f1340'
         }
     };
+
+
+
+    
     
     fetch(`https://imdb-scraper.p.rapidapi.com/search/title/${str}/true`, options)
         .then(response => response.json())
@@ -131,10 +135,10 @@ function searchByName(){
 // 	.then(response => console.log(response))
 // 	.catch(err => console.error(err));
 
-let m={title: 'Titanic', year: '1943', duration: '1h 25m', rating: '6.2', id: 'tt0036443'}
-if(m.duration.includes('h')){
-    console.log(true);
-}
-else{
-    console.log(false);
-}
+// let m={title: 'Titanic', year: '1943', duration: '1h 25m', rating: '6.2', id: 'tt0036443'}
+// if(m.duration.includes('h')){
+//     console.log(true);
+// }
+// else{
+//     console.log(false);
+// }
